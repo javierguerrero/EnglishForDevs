@@ -22,37 +22,47 @@ Característica: Catálogo de tópicos
   Para generar diálogos reales a partir de ellos
 ```
 
+```
 Característica: Generación de diálogo
-Como usuario 
-Quiero generar un diálogo real a partir de un tópico elegido
-Para aprender  en situaciones reales con el inglés
+  Como usuario 
+  Quiero generar un diálogo real a partir de un tópico elegido
+  Para aprender  en situaciones reales con el inglés
+```
 
+```
 Característica: Autenticación de usuario
-Como usuario 
-Quiero 
-Para
+  Como usuario 
+  Quiero 
+  Para
+```
 
-
+```
 Característica: Traducción de diálogo
-Como usuario 
-Quiero 
-Para
+  Como usuario 
+  Quiero 
+  Para
+```
 
+```
 Característica: Reproducción de diálogo
-Como usuario 
-Quiero 
-Para
+  Como usuario 
+  Quiero 
+  Para
+```
 
+```
 Característica: Flascards
-Como
-Quiero 
-Para
+  Como
+  Quiero 
+  Para
+```
 
+```
 Característica:
-Como
-Quiero
-Para
-
+  Como
+  Quiero
+  Para
+```
 
 
 
