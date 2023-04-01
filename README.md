@@ -15,10 +15,12 @@ Aplicación para practicar:
 
 ## Functional Overview
 
+```
 Característica: Catálogo de tópicos
 Como usuario 
 Quiero acceder a una lista de tópicos clasificados 
 Para generar diálogos reales a partir de ellos
+```
 
 Característica: Generación de diálogo
 Como usuario 
