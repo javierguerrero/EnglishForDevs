@@ -35,9 +35,9 @@ Característica: Generación de diálogo
       Cuando: selecciono "B2" 
       Entonces: el dialogo generado es para alumnos que buscan prepararse para un nivel B2 
   
-    Escenario:
-      Cuando:
-      Entonces:
+    Escenario: nivel C1
+      Cuando: seleccion "C1"
+      Entonces: el dialogo generado es para alumnos que buscan prepararse para un nivel C1
   
   Regla: Debería generarse diálogos distintos en un mismo tópico.
   
