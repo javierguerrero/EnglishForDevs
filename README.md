@@ -100,3 +100,7 @@ Característica:
 Diagrams:
 https://app.diagrams.net/#G1P88Az-hHvznkhSB0KIn7fVVlExcVvhw7
 
+
+
+Genera una conversación alternada de exactamente 10 frases cortas entre dos personas. Las frases deben ser cortas (máximo 100 caracteres) para un estudiante de inglés con nivel B2. Aplica la enumeración a dicha conversación. El tema de conversación será:  Can you explain the Dependency Inversion Principle (DIP) and how it promotes decoupling of software components?
+
