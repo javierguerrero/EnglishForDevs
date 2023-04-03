@@ -18,11 +18,9 @@ EnglishForDevs is an application designed specifically to help software develope
 2. Admin
 
 ### External Systems
-1.
-2. 
-3. 
-
-
+1. OpenAI API
+2. Amazon Polly 
+3. Google Authorization Server
 
 
 ## Functional Overview
