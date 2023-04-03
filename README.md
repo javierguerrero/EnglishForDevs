@@ -27,23 +27,12 @@ Característica: Generación de diálogo
   Quiero generar un diálogo real a partir de un tópico seleccionado
   Para experimentar el idioma tal como se habla en la vida real
   
-  Regla: Debería ser una conversación alternada de frases cortas entre dos personas.
+  Regla: Debería ser una conversación alternada de 10 frases cortas entre dos personas.
   
-  Regla: Debería elgirse un nivel para el diálogo (A1, A2, B1, B2, C1, C2)
-    
-    Escenario: nivel B2
-      Cuando: selecciono "B2" 
-      Entonces: el dialogo generado es para alumnos que buscan prepararse para un nivel B2 
-  
-    Escenario: nivel C1
-      Cuando: seleccion "C1"
-      Entonces: el dialogo generado es para alumnos que buscan prepararse para un nivel C1
-  
-  Regla: Debería generarse diálogos distintos en un mismo tópico.
-  
-    Escenario:
-      Cuando:
-      Entonces:
+    Escenario: generar diálogo para un nivel determinado
+      Cuando: selecciono el nivel B2
+        Y: solicito la generación del diálogo
+      Entonces: debería ver un diálogo de 10 frases cortas para un nivel B2  
 ```
 
 ```
