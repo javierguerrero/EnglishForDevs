@@ -29,7 +29,7 @@ Característica: Generación de diálogo
   
   Regla: Debería ser una conversación alternada de 10 frases cortas entre dos personas.
   
-    Escenario: generar diálogo para un nivel determinado
+    Escenario: generar diálogo para un nivel B2
       Cuando: selecciono el nivel B2
         Y: solicito la generación del diálogo
       Entonces: debería ver un diálogo de 10 frases cortas para un nivel B2  
