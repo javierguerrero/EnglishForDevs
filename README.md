@@ -33,11 +33,11 @@ Característica: Catálogo de diálogos
   
   Escenario: Mostrar categorías disponibles
     Cuando: ingreso a la aplicación
-    Entonces: visualizo una lista de categorías disponibles
+    Entonces: visualizo una lista de categorías disponibles: Software Requirements, Software Design, Software Construction, etc.
   
-  Escenario: Mostrar contenido de categoría "Design"
+  Escenario: Mostrar contenido de categoría "Software Design"
     Cuando: selecciono categoría "Design"
-    Entonces: visualizo la lista de subcategorías para esa categoría: Design Patterns, SOLID Principles, AntiPatterns,...
+    Entonces: visualizo la lista de subcategorías para esa categoría: Design Patterns, SOLID Principles, AntiPatterns, etc.
 
   Escenario: Mostrar contenido de subcategoría "SOLID principles"
     Cuando: selecciono subcategoría "SOLID principles"
@@ -46,15 +46,6 @@ Característica: Catálogo de diálogos
     
 ```
 
-
-Class
-Objects
-Data Abstraction 
-Encapsulation
-Inheritance
-Polymorphism
-Dynamic Binding
-Message Passing
 
 ```
 Característica: Generación de diálogo
