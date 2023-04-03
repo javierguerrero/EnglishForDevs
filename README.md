@@ -36,7 +36,7 @@ Característica: Catálogo de diálogos
     Entonces: visualizo una lista de categorías disponibles: Software Requirements, Software Design, Software Construction, etc.
   
   Escenario: Mostrar contenido de categoría "Software Design"
-    Cuando: selecciono categoría "Design"
+    Cuando: selecciono categoría "Software Design"
     Entonces: visualizo la lista de subcategorías para esa categoría: Design Patterns, SOLID Principles, AntiPatterns, etc.
 
   Escenario: Mostrar contenido de subcategoría "SOLID principles"
