@@ -13,6 +13,14 @@ EnglishForDevs is an application designed specifically to help software develope
 
 ![](https://drive.google.com/uc?id=1QizNWZf3IteBKEzokHmdZbKZqudfGfqo)
 
+### Users
+1. Authenticated users
+2. Admin
+
+### External Systems
+1.
+2. 
+3. 
 
 
 
