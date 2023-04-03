@@ -28,7 +28,7 @@ EnglishForDevs is an application designed specifically to help software develope
 ```
 Característica: Catálogo de diálogos
   Como usuario 
-  Quiero ser capa de ver los diálogos organizados en categorías y subtcategorías
+  Quiero ser capaz de ver los diálogos organizados en categorías y subtcategorías
   Para encontrar los diálogos que necesito de manera más eficiente
   
   Escenario: Mostrar categorías disponibles
@@ -37,7 +37,7 @@ Característica: Catálogo de diálogos
   
   Escenario: Mostrar contenido de categoría "Design"
     Cuando: selecciono categoría "Design"
-    Entonces: visualizo lista de subcategorías para esa categoría
+    Entonces: visualizo la lista de subcategorías para esa categoría: Design Patterns, SOLID Principles, AntiPatterns,...
 
   Escenario: Mostrar contenido de subcategoría "SOLID principles"
     Cuando: selecciono subcategoría "SOLID principles"
