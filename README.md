@@ -8,9 +8,11 @@ This software guidebook provides an overview of the **EnglishForDevs**. It inclu
 - Operational and support aspects of the application.
 
 ## Context
-Aplicación para practicar:
-- Vocabulario
-- Pronunciación
+
+EnglishForDevs es una aplicación que te permite practicar tu inglés a través de conversaciones reales. 
+
+
+
 
 ## Functional Overview
 
@@ -19,6 +21,11 @@ Característica: Catálogo de tópicos
   Como usuario 
   Quiero acceder a una lista de tópicos clasificados 
   Para generar diálogos reales a partir de ellos
+  
+  Regla: mostrar lista de categorías disponibles 
+  
+  Regla: Debería
+  
 ```
 
 ```
