@@ -9,8 +9,9 @@ This software guidebook provides an overview of the **EnglishForDevs**. It inclu
 
 ## Context
 
-EnglishForDevs es una aplicación que te permite practicar tu inglés a través de conversaciones reales. 
+EnglishForDevs is an application designed specifically to help software developers improve their English skills and achieve more effective communication with their team. The application focuses on learning English terminology through real-life dialogues, allowing users to practice simulated situations that may arise in the workplace. With EnglishForDevs, software developers can effectively and practically improve their English skills.
 
+![](https://drive.google.com/uc?id=1vX7S926bLIMZbfIzyQGVxxPKNQMvl0Ml)
 
 
 
