@@ -1,7 +1,7 @@
 # EnglishForDevs - Software Guidebook
 
 ## Introduction
-This software guidebook provides an overview of the **EnglishForDevs**. It includes a summary of the following:
+This software guidebook provides an overview of the **EnglishForDevs** application. It includes a summary of the following:
 - The requirements, constraints and principles behind the solution.
 - The software architecture, including the high-level technology choices and structure of the software.
 - The infrastructure architecture and how the software is deployed.
@@ -26,15 +26,22 @@ EnglishForDevs is an application designed specifically to help software develope
 ## Functional Overview
 
 ```
-Característica: Catálogo de tópicos
+Característica: Catálogo de diálogos
   Como usuario 
-  Quiero acceder a una lista de tópicos clasificados 
-  Para generar diálogos reales a partir de ellos
+  Quiero ser capa de ver los diálogos organizados en categorías y subtcategorías
+  Para encontrar los diálogos que necesito de manera más eficiente
   
-  Regla: mostrar lista de categorías disponibles 
+  Escenario: Categorías
+    Cuando: ingreso a la aplicación
+    Entonces: visualizo una lista de categorías disponibles
   
-  Regla: Debería
+  Escenario: Subcategorías
+    Cuando: selecciono una categoría
+    Entonces: tengo que ver una lista de subcategorías para esa categoría
   
+  Escenario: productos disponibles
+    Cuando: selecciono una subcategoría
+    Entonces: visualizo una lista de diálogos disponibles en esa subcategoría 
 ```
 
 ```
