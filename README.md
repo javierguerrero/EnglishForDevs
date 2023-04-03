@@ -31,18 +31,30 @@ Característica: Catálogo de diálogos
   Quiero ser capa de ver los diálogos organizados en categorías y subtcategorías
   Para encontrar los diálogos que necesito de manera más eficiente
   
-  Escenario: Categorías
+  Escenario: Mostrar categorías disponibles
     Cuando: ingreso a la aplicación
     Entonces: visualizo una lista de categorías disponibles
   
-  Escenario: Subcategorías
-    Cuando: selecciono una categoría
-    Entonces: tengo que ver una lista de subcategorías para esa categoría
-  
-  Escenario: productos disponibles
-    Cuando: selecciono una subcategoría
-    Entonces: visualizo una lista de diálogos disponibles en esa subcategoría 
+  Escenario: Mostrar contenido de categoría "Design"
+    Cuando: selecciono categoría "Design"
+    Entonces: visualizo lista de subcategorías para esa categoría
+
+  Escenario: Mostrar contenido de subcategoría "SOLID principles"
+    Cuando: selecciono subcategoría "SOLID principles"
+    Entonces: visualizo una lista de diálogos disponibles en esa subcategoría: SRP, OCP, LSP, ISP, DIP.
+    
+    
 ```
+
+
+Class
+Objects
+Data Abstraction 
+Encapsulation
+Inheritance
+Polymorphism
+Dynamic Binding
+Message Passing
 
 ```
 Característica: Generación de diálogo
