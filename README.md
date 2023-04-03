@@ -30,8 +30,20 @@ Característica: Generación de diálogo
   Regla: Debería ser una conversación alternada de frases cortas entre dos personas.
   
   Regla: Debería elgirse un nivel para el diálogo (A1, A2, B1, B2, C1, C2)
+    
+    Escenario: nivel B2
+      Cuando: selecciono "B2" 
+      Entonces: el dialogo generado es para alumnos que buscan prepararse para un nivel B2 
   
-  Regla: Debería generarse diálogos distintos en un mismo tópico. 
+    Escenario:
+      Cuando:
+      Entonces:
+  
+  Regla: Debería generarse diálogos distintos en un mismo tópico.
+  
+    Escenario:
+      Cuando:
+      Entonces:
 ```
 
 ```
