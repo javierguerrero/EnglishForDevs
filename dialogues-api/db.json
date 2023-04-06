@@ -1,0 +1,26 @@
+{
+  "categories": [
+   {
+	"id": 1,
+	"name": "Software Requirements"
+    },
+   {
+	"id": 2,
+	"name": "Software Design"
+    }	
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Design Patterns"
+    },
+    {
+      "id": 2,
+      "name": "SOLID Principles"
+    },
+    {
+      "id": 3,
+      "name": "AntiPatterns"
+    }
+  ]
+}

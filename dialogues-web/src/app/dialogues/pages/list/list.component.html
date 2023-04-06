@@ -1,0 +1,10 @@
+<h1>Home</h1>
+
+<p>Aqui podemos mostrar la lista de categorías</p>
+<ul>
+  <li *ngFor="let category of categories">
+    <a [routerLink]="['/dialogues/category', category.id]">{{
+      category.name
+    }}</a>
+  </li>
+</ul>

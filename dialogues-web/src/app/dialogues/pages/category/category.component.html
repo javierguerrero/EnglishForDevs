@@ -1,0 +1,12 @@
+<h1>Category: XYZ</h1>
+<mat-divider></mat-divider>
+<br />
+
+<p>Lista de <strong>tópicos</strong> disponibles en la categoría XYZ</p>
+<ul>
+  <li *ngFor="let topic of topics">
+    <a [routerLink]="['/dialogues/topic', topic.id]">
+      {{ topic.name }}
+    </a>
+  </li>
+</ul>
