@@ -28,7 +28,7 @@ EnglishForDevs is an application designed specifically to help software develope
 ```
 Característica: Catálogo de diálogos
   Como usuario 
-  Quiero ser capaz de ver los diálogos organizados en categorías y subtcategorías
+  Quiero ser capaz de ver los diálogos organizados en categorías
   Para encontrar los diálogos que necesito de manera más eficiente
   
   Escenario: Mostrar categorías disponibles
