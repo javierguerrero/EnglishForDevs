@@ -17,8 +17,10 @@ export class DialogueService {
     return this.http.get<Category[]>(`${this.baseUrl}/categories`);
   }
 
-  getTopics(): Observable<Topic[]> {
-    return this.http.get<Topic[]>(`${this.baseUrl}/topics`);
+  getTopics(categoryId: number): Observable<Topic[]> {
+    return this.http.get<Category[]>(
+      `${this.baseUrl}/categories/${categoryId}/topics`
+    );
   }
 
   /*
