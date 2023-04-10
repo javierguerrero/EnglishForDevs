@@ -19,7 +19,7 @@ namespace Infrastructure
             // Inyección de depndencias de servicios personalizados
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ITopicRepository, TopicRepository>();
-            services.AddScoped<IDialogueGenerativeAI, ChatGPT>();
+            services.AddScoped<IDialogueGenerativeAI, DialogueGenerativeAI>();
 
             return services;
         }

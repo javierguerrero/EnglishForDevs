@@ -1,13 +1,11 @@
-﻿using Domain.Entities;
-using Domain.Interfaces.GenerativeAI;
-using Infrastructure.GenerativeAI.DTOs;
+﻿using Infrastructure.GenerativeAI.DTOs;
 using Microsoft.Extensions.Configuration;
 using System.Text;
 using System.Text.Json;
 
 namespace Infrastructure.GenerativeAI
 {
-    public class ChatGPT : IDialogueGenerativeAI
+    public class ChatGPT : IChatbot
     {
         private IConfiguration _configuration;
 
@@ -16,12 +14,13 @@ namespace Infrastructure.GenerativeAI
             _configuration = configuration;
         }
 
-        public async Task<Dialogue> GenerateDialogue()
+        public async Task<string> GenerateResponse()
         {
+            var result = string.Empty;
+
             string? key = _configuration.GetSection("ChatGPT:Key").Value;
             string? url = _configuration.GetSection("ChatGPT:Url").Value;
-
-            var result = string.Empty;
+            string? prompt = _configuration.GetSection("ChatGPT:Prompt").Value;
 
             using (var client = new HttpClient())
             {
@@ -58,21 +57,13 @@ namespace Infrastructure.GenerativeAI
 
                     if (!string.IsNullOrEmpty(completionText))
                     {
-                        var phrases = GetPhrases(completionText);
-                        var foo = 0;
+                        result = completionText;
                     }
                 }
             }
 
-            return null;
-        }
-
-        private List<string> GetPhrases(string text)
-        {
-            string[] lines = text.Split(new string[] { "\n" }, StringSplitOptions.None);
-            List<string> result = new List<string>(lines);
-            var filtered = result.Where(s => s != "").ToList();
-            return filtered;
+            //TODO: Validate result's value
+            return result;
         }
     }
 }
