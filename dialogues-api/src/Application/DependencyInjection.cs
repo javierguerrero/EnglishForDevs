@@ -1,8 +1,6 @@
 ﻿using Application.Services;
 using AutoMapper;
-using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
-using Infrastructure.DataAccess.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -24,7 +22,7 @@ namespace Application
             services.AddScoped<IMapperService, MapperService>();
             services.AddScoped<IGetAllCategoriesService, GetAllCategoriesService>();
             services.AddScoped<IGetTopicsService, GetTopicsService>();
-            
+            services.AddScoped<IGenerateDialogueService, GenerateDialogueService>();
 
             return services;
         }

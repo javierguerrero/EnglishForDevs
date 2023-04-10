@@ -23,6 +23,11 @@ namespace Application.Services
             return _autoMapper.Map<TopicDto>(entity);
         }
 
+        public DialogueDto ConvertToDto(Dialogue entity)
+        {
+            return _autoMapper.Map<DialogueDto>(entity);
+        }
+
         public Category ConvertToEntity(CategoryDto dto)
         {
             return _autoMapper.Map<Category>(dto);
@@ -31,6 +36,11 @@ namespace Application.Services
         public Topic ConvertToEntity(TopicDto dto)
         {
             return _autoMapper.Map<Topic>(dto);
+        }
+
+        public Dialogue ConvertToEntity(DialogueDto dto)
+        {
+            return _autoMapper.Map<Dialogue>(dto);
         }
     }
 }

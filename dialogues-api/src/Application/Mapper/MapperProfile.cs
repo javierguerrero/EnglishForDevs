@@ -9,11 +9,15 @@ namespace Application.Mapper
         public MapperProfile()
         {
             CreateMap<Category, CategoryDto>()
-                .ForMember(dest => dest.Name, source => source.MapFrom(source => source.Name))
+                .ForMember(dest => dest.Id, source => source.MapFrom(source => source.Id))
                 .ReverseMap();
 
             CreateMap<Topic, TopicDto>()
-                .ForMember(dest => dest.Name, source => source.MapFrom(source => source.Name))
+                .ForMember(dest => dest.Id, source => source.MapFrom(source => source.Id))
+                .ReverseMap();
+
+            CreateMap<Dialogue, DialogueDto>()
+                .ForMember(dest => dest.Id, source => source.MapFrom(source => source.Id))
                 .ReverseMap();
 
         }

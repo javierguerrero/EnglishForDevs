@@ -10,9 +10,9 @@ namespace WebAPI.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ILogger<CategoriesController> _logger;
+        private readonly IMapperService _mapperService;
         private readonly IGetAllCategoriesService _getAllCategoriesService;
         private readonly IGetTopicsService _getTopicsService;
-        private readonly IMapperService _mapperService;
 
         public CategoriesController(
             ILogger<CategoriesController> logger,
@@ -31,13 +31,14 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> GetCategories()
         {
             var entities = await _getAllCategoriesService.GetAllCategories();
-            var results = new List<CategoryDto>();
+            
+            var output = new List<CategoryDto>();
             foreach (var entity in entities)
             {
-                results.Add(_mapperService.ConvertToDto(entity));
+                output.Add(_mapperService.ConvertToDto(entity));
             }
 
-            return Ok(results);
+            return Ok(output);
         }
 
         //GET /categories/5/topics
@@ -45,13 +46,14 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> GetTopics(int categoryId)
         {
             var entities = await _getTopicsService.GetTopics(categoryId);
-            var results = new List<TopicDto>();
+
+            var output = new List<TopicDto>();
             foreach (var entity in entities)
             {
-                results.Add(_mapperService.ConvertToDto(entity));
+                output.Add(_mapperService.ConvertToDto(entity));
             }
 
-            return Ok(results);
+            return Ok(output);
         }
 
 

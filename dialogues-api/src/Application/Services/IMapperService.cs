@@ -9,8 +9,12 @@ namespace Application.Services
 
         Topic ConvertToEntity(TopicDto dto);
 
+        Dialogue ConvertToEntity(DialogueDto dto);
+
         CategoryDto ConvertToDto(Category entity);
 
         TopicDto ConvertToDto(Topic entity);
+
+        DialogueDto ConvertToDto(Dialogue entity);
     }
 }
